@@ -3,7 +3,7 @@
 @Email				: 18773993654@163.com
 @Lost modifid		: 2020/4/24 10:27
 @Filename			: exception.py
-@Description		: 
+@Description		: 自定义异常处理
 @Software           : PyCharm
 """
 import traceback

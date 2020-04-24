@@ -3,7 +3,7 @@
 @Email				: 18773993654@163.com
 @Lost modifid		: 2020/4/24 10:15
 @Filename			: file_management.py
-@Description		: 
+@Description		: 文件管理功能视图
 @Software           : PyCharm
 """
 from rest_framework.generics import GenericAPIView

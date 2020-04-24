@@ -3,7 +3,7 @@
 @Email				: 18773993654@163.com
 @Lost modifid		: 2020/4/24 10:21
 @Filename			: middleware.py
-@Description		: 
+@Description		: 中间件
 @Software           : PyCharm
 """
 import logging
