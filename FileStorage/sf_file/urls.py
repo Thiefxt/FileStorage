@@ -8,7 +8,9 @@
 """
 from django.urls import path
 
+from sf_file.views import file_management
+
 
 urlpatterns = [
-    path()
+    path("test", file_management.Test.as_view()),           # 测试运行
 ]

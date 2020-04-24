@@ -6,10 +6,13 @@
 @Description		: 
 @Software           : PyCharm
 """
-from rest_framework.views import APIView
+from rest_framework.generics import GenericAPIView
+
+from language.LanguagePack import RET
+from utils.customize_toolset import CstResponse
 
 
-class Test(APIView):
+class Test(GenericAPIView):
 
-    def get(self, request, *args, **kwargs):
-        return
+    def get(self, request):
+        return CstResponse(RET.OK, data=request.query_params)
