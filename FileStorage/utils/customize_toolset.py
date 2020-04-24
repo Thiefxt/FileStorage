@@ -3,7 +3,7 @@
 @Email				: 18773993654@163.com
 @Lost modifid		: 2020/4/24 10:17
 @Filename			: customize_toolset.py
-@Description		: 自定义业务响应，业务异常类
+@Description		: 自定义业工具集
 @Software           : PyCharm
 """
 
