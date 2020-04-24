@@ -6,3 +6,9 @@
 @Description		: 
 @Software           : PyCharm
 """
+from django.urls import path
+
+
+urlpatterns = [
+    path()
+]
