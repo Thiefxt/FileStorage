@@ -18,7 +18,7 @@ class LogMiddleware(MiddlewareMixin):
     def process_request(self, request):
         if str(request.method).upper() == "GET":
             return
-        msg = '{}-{}\n GET {}\n POST {}'.format(request.path, request.method, json.dumps(request.GET), request.body.decode('utf8'))
+        msg = '{}-{}\n GET {}\n POST {}'.format(request.path, request.method, json.dumps(request.GET), request.body)
         logger.info(msg)
 
     def process_response(self, request, response):

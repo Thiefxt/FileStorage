@@ -127,6 +127,14 @@ REST_FRAMEWORK = {
 }
 
 
+# django文件存储
+DEFAULT_FILE_STORAGE = 'utils.fastdfs.fdfs_storage.FastDFSStorage'
+
+# FastDFS
+FDFS_BASE_URL = 'http://192.168.246.128:8888/'
+FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fastdfs/client.conf')
+
+
 BASE_LOG_DIR = os.path.join(BASE_DIR, "logs")
 LOGGING = {
     'version': 1,
